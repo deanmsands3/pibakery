@@ -28,5 +28,6 @@
     "deletefile",
     "reboot",
     "shutdown"
+    "adduser"
   ]
 }

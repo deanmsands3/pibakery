@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "blocksources": [
     {
-      "url": "https://raw.githubusercontent.com/davidferguson/pibakery-blocks/master/info.json",
+      "url": "https://raw.githubusercontent.com/buschbapti/pibakery/master/pibakery-blocks/info.json",
       "name": "official-blocks"
     }
   ]
