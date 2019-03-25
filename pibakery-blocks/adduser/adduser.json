@@ -1,0 +1,27 @@
+{
+	"name": "adduser",
+	"text": "Create user %1\\nPassword: %2",
+	"script": "adduser.py",
+	"args": [
+		{
+			"type": "text",
+			"default": "admin",
+			"maxLength":0
+		},
+		{
+			"type": "text",
+			"default": "admin",
+			"maxLength":0
+		}
+	],
+	"network": false,
+	"continue": true,
+	"type": "setting",
+	"category":"setting",
+	"supportedOperatingSystems": [
+		"raspbian-pibakery.img",
+		"raspbian-lite-pibakery.img"
+	],
+	"shortDescription":"Create a new user",
+	"longDescription":"Raspbian comes with a user account already setup, with the username 'pi' and the password 'raspberry'. For the sake of security, you can choose to create a new user and set its password."
+}
