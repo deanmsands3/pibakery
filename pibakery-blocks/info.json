@@ -27,6 +27,11 @@
     "runpython",
     "deletefile",
     "reboot",
-    "shutdown"
+    "shutdown",
+    "updateupgrade",
+    "enablessh",
+    "memsplit",
+    "retropiesetup",
+    "waitfornetwork"
   ]
 }
