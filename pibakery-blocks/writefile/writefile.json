@@ -4,8 +4,12 @@
 	"script": "writefile.sh",
 	"network": false,
 	"continue": true,
-	"type": "setting",
-	"category": "setting",
+	"type": "other",
+	"category": "other",
+	"supportedOperatingSystems": [
+		"raspbian-pibakery.img",
+		"raspbian-lite-pibakery.img"
+	],
 	"shortDescription":"Wrire a file to the pi",
 	"longDescription":"Write to the specified file using the input parameters specified",
 	"args": [
